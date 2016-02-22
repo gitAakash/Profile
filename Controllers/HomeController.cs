@@ -60,7 +60,7 @@ namespace aakashPawar.Controllers
         public ActionResult ClickMe()
         {
             Client_ID = "321550384631-la85m64i8ats4jg2nq8gvqiv739rk46l.apps.googleusercontent.com";
-            Return_url = "http://aakash.apphb.com/Home/GoogleResultCallBack";
+            Return_url = "http://aakash.apphb.com/Home/GoogleResultCallBack/";
 
             var ddd =
                 "https://accounts.google.com/o/oauth2/auth?response_type=token&" +
@@ -74,7 +74,7 @@ namespace aakashPawar.Controllers
         public ActionResult GoogleResultCallBack()
         {
             Client_ID = "321550384631-la85m64i8ats4jg2nq8gvqiv739rk46l.apps.googleusercontent.com";
-            Return_url = "http://aakash.apphb.com/Home/GoogleResultCallBack";
+            Return_url = "http://aakash.apphb.com/Home/GoogleResultCallBack/";
 
             Demo demo = new Demo();
 
