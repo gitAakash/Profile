@@ -59,6 +59,8 @@ namespace aakashPawar.Controllers
 
         public ActionResult ClickMe()
         {
+            Client_ID = ConfigurationSettings.AppSettings["google_clientId"];
+            Return_url = ConfigurationSettings.AppSettings["google_RedirectUrl"];
             var ddd =
                 "https://accounts.google.com/o/oauth2/auth?response_type=token&" +
                 "redirect_uri=" + Return_url + "&scope=" +
