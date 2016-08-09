@@ -23,6 +23,7 @@ namespace aakashPawar.Controllers
 
         public ActionResult Index()
         {
+            System.Diagnostics.Trace.WriteLine("tHIS IS ME ");
             GetUserDetailsFromTwitter();
             return View();
         }
