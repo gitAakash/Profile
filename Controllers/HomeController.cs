@@ -23,7 +23,7 @@ namespace aakashPawar.Controllers
 
         public ActionResult Index()
         {
-            GetUserDetailsFromTwitter();
+           // GetUserDetailsFromTwitter();
             return View();
         }
 
